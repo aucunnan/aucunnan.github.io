@@ -14,8 +14,10 @@ body {
     margin-left: 10%;
 }
 
-header {
+.Bandeau {
     border-bottom: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
 }
 
 header nav div {
