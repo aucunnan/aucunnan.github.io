@@ -15,6 +15,7 @@ body {
 }
 
 .Bandeau {
+    background-color:rgb(201, 227, 204);
     border-bottom: 1px solid black;
     display: inline-block;
     vertical-align: top;
