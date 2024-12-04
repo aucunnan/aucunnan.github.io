@@ -13,3 +13,12 @@ body {
     text-align: center;
     margin-left: 10%;
 }
+
+header {
+    border-bottom: 1px solid black;
+}
+
+header nav div {
+    display: inline-block;
+    vertical-align: top;
+}
