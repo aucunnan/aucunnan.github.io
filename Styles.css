@@ -1,4 +1,3 @@
-
 body {
     background-color: #b0b9a8;
 }
@@ -8,7 +7,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    width: 1365px;
+    width: 1348px;
     padding-bottom: 1%;
     padding-top: 1%;
     background-color: #b8cbd0;
@@ -79,4 +78,44 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #476b75;
     text-decoration: underline;
+}
+
+.Image {
+    height: 200px;
+    padding-left: 4%;
+
+}
+.AlignImage {
+    justify-content: flex-start;
+}
+
+.Liste2 {
+    align-items: center;
+    list-style: disc;
+    border-radius: 2%;
+    background-color:#85999e;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+}
+
+.Explications {
+    font-size: 100%;
+    color: #ffffff;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 2%;
+}
+
+.Background {
+    align-items: center;
+    display: inline-flex;
+}
+
+.Shop {
+    height: 200px;
+    margin-left: 100%;
 }
