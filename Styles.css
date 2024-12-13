@@ -1,3 +1,4 @@
+
 body {
     background-color: #b0b9a8;
 }
@@ -7,7 +8,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    width: 1348px;
+    width: 1340px;
     padding-bottom: 1%;
     padding-top: 1%;
     background-color: #b8cbd0;
@@ -115,7 +116,21 @@ body {
     display: inline-flex;
 }
 
-.Shop {
-    height: 200px;
-    margin-left: 100%;
+.DivVideo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Video {
+    height: 170px;
+    width: 300px;
+    align-items: center;
+}
+
+.VideoText {
+    font-size: 150%;
+    color: #476b75;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
 }
