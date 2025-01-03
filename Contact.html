@@ -6,22 +6,33 @@
         <link rel="icon" href="Images/LogoSite.png">
     </head>
     <body>
-        <header class="Bandeau">
+        <div class="Bandeau">
             <img class="LogoSite" src="Images/LogoSite.png" alt="LogoSite">
-            <a class="BoutonsBandeau" href="index.html">Accueil
-                <img class="ImageRetour" src="Images/HomeLogo.png" alt="Image">
-            </a>
+            <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#">Trains</a>
+              <ul class="sousmenu">
+                <li><a href="AGC.html">AGC</a></li>
+                <li><a href="TGV.html">TGV </a></li>
+                <li><a href="BB26000.html">BB 26000</a></li>
+              </ul>
+            </li>
+            <li><a href="#">a</a>
+              <ul class="sousmenu">
+                <li><a href="#">Sous-menu 1</a></li>
+                <li><a href="#">Sous-menu 2</a></li>
+                <li><a href="#">Sous-menu 3</a></li>
+              </ul>
+            </li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
 
-            <a class="BoutonsBandeau" href="Contact.html">Nous Contacter
-                <img class="ImageRetour" src="Images/TelLogo.png" alt="Image">
-            </a>
-
-            <div>
-            </div>
-        </header>
         <p class="Paragraphe">Nos Contacts</p>
         <div class="ContactsText">
-            Adresse mail : aucunnan@gmail.com
+            <div class="Info">Adresse mail : aucunnan@gmail.com</div>
+            <div class="Info">Télephone : 3630 3630</div>
+            <a class="Info" href="https://maps.app.goo.gl/wSJmV2qDGAuZBGSB7" >Adresse : 88 Anc. Rte de Bernay, 27500 Pont-Audemer</a>
         </div>
     </body>
 </html>

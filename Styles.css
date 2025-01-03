@@ -5,16 +5,18 @@ body {
 
 .Bandeau {
     display: flex;
+    top: 1%;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    width: 1340px;
+    width: 100%;
     padding-bottom: 1%;
     padding-top: 1%;
     background-color: #b8cbd0;
-    margin-left: -0.5%;
+    margin-left: -1%;
     margin-right: auto;
     margin-top: -1%;
+    height: 50px;
 }
 
 .Bandeau2 {
@@ -28,18 +30,17 @@ body {
     padding: 1%;
     display: inline;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Montserrat", Sans-serif;
     font-size: 20px;
-    color: white;
+    color: #ffffff;
+    border-color: #ffffff;
     background-color: #b8cbd0;
-    text-align: left;
-    height: 35px;
-    align-items: center;
+    height: 10px;
+    align-items: center;    
     justify-content: center;
-    border-radius: 10%;
     margin-left: 5%;
+    line-height: 10px;
 }
-
 .BoutonsBandeau:hover {
     background-color: #c8e2cb;
 }
@@ -59,6 +60,18 @@ body {
     border-radius: 10%;
 }
 
+.ContactsText {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #476b75;
+    font-size: 70%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #ffffff;
+    padding: 5px;
+    
+}
+
 .ImageRetour {
     height: 15px;
     padding-left: 5px;
@@ -68,8 +81,7 @@ body {
 
 .LogoSite {
     padding-left: 2%;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 30px;
     height: 40px;
 }
 
@@ -133,4 +145,123 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
+}
+
+
+.ListeTrain {
+    color: #ffffff;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 10%;
+
+}
+.AGCButton {
+    background-color: #85999e;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 75%;
+    border-style: solid;
+    border-color: #a0bcc4 ;
+    border-width: 5px;
+    border-radius: 10px;
+    justify-content: flex-start;
+}
+
+.AGCButton:hover {
+    background-color: #476b75;
+}
+
+.ImageListe {
+    height: 50px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 10px;
+}
+.Liste {
+    background-color: #476b75;
+}
+
+.menu {
+    height: 60px;
+    list-style: none;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 16px;
+}
+
+.menu li {
+    float: left;
+    width: 200px;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    block-size: 20px;
+    color: #FFF;
+    background: #b8cbd0;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Montserrat", Sans-serif;
+    margin-left: 10px;
+    border-right: 1px solid white;
+
+}
+
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #b8cbd0;
+    font-family: "Montserrat", Sans-serif;
+    padding-left: 16px;
+    
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #199BD2;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+.GrandeImage {
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.Info {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.ImageContact {
+    top: 50%;
+    left: 50%;
+    width: 10%;
 }
