@@ -107,6 +107,10 @@ body {
     list-style: disc;
     border-radius: 2%;
     background-color:#85999e;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 50%;
     height: 50%;
     padding-bottom: 1%;
@@ -125,12 +129,14 @@ body {
 
 .Background {
     align-items: center;
-    display: inline-flex;
+    display: flex;
 }
 
 .DivVideo {
     margin-left: auto;
     margin-right: auto;
+    bottom: 100px;
+
 }
 
 .Video {
@@ -261,7 +267,53 @@ body {
 }
 
 .ImageContact {
-    top: 50%;
-    left: 50%;
-    width: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.ImageContact img {
+    width: 70%;
+    height: 10%;
+}
+
+.ImageContact:hover {
+        animation: bounce 2s infinite;
+}
+
+@keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateY(0); } 40% { transform: translateY(-30px); } 60% { transform: translateY(-15px); } }
+
+.ImageMenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.ImageMenu img {
+    width: 50%;
+    height: 10%;
+}
+
+.Tableau {
+    border: 2px solid white;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #7aa7a4;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Tableau tr td {
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    height: 10px;
 }
